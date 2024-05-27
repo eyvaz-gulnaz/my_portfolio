@@ -40,8 +40,11 @@ h1 {
 
 .left {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 3em auto;
+    gap: 3rem;
+    padding: 0 15rem;
 }
 
 h2 {

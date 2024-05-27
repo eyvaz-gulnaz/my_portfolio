@@ -17,6 +17,12 @@ body {
     justify-content: space-evenly;
 }
 
+.categoryHead {
+    color: white;
+    margin: 0 5rem;
+    margin-bottom: 3rem;
+}
+
 h1 {
     font-size: 3em;
     color: white;
@@ -58,11 +64,13 @@ a:hover {
     width: 100%;
 }
 
-.box1, .box2, .box3 {
+.box1,
+.box2,
+.box3 {
     justify-content: space-evenly;
     display: flex;
     height: 70vh;
-    margin-left: 5em;
+    margin-left: 6em;
 }
 
 .xBox {
@@ -79,7 +87,7 @@ a:hover {
 }
 
 
-.qutu{
+.qutu {
     cursor: pointer;
     height: 70vh;
     width: 65vh;
@@ -148,13 +156,17 @@ img:hover {
         height: auto;
         margin: 3em auto;
     }
-    .box1, .box2, .box3 {
+
+    .box1,
+    .box2,
+    .box3 {
         flex-direction: column;
         width: 100%;
         height: 32%;
         align-items: center;
         margin: 0;
     }
+
     .qutu {
         display: flex;
         align-items: center;

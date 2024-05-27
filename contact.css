@@ -92,6 +92,8 @@ input {
     transition: 0.3s all;
     height: 7vh;
     width: 50vh;
+    padding: 0 20px;
+    color: white;
 }
 
 input:hover {
@@ -178,6 +180,7 @@ hr {
 .lorem1 {
     display: none;
 }
+
 .smes1 {
     display: none;
 }
@@ -256,7 +259,7 @@ hr {
     }
 
     .right {
-        
+
         margin-top: 48em;
     }
 
@@ -316,7 +319,7 @@ hr {
         display: none;
     }
 
-    .lorem{
+    .lorem {
         display: none;
     }
 }

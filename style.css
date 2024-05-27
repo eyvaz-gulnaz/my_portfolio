@@ -23,25 +23,14 @@
     height: 15vh;
 }
 
-
 .navbar {
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.navbar nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    width: 40%;
 }
 
 ul {
     display: flex;
     justify-content: space-evenly;
-    width: 500px;
+    width: 100%;
 }
 
 li {
@@ -165,7 +154,8 @@ i {
     .clickBar nav {
 
         border-radius: 25px;
-        background: rgba(18, 76, 18, 0.331);        border: 1px solid darkgreen;
+        background: rgba(18, 76, 18, 0.331);
+        border: 1px solid darkgreen;
         width: 100%;
         position: fixed;
         margin-top: 4em;
@@ -197,7 +187,7 @@ i {
         width: 100%;
         height: 100vh;
         background-size: cover;
-        background-position:center;
+        background-position: center;
     }
 
     .orta {
